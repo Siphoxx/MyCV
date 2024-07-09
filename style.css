@@ -1,0 +1,303 @@
+/* Set box-sizing to border-box for all elements */
+html {
+  box-sizing: border-box;
+}
+
+/* Global styles for the body */
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  font-size: 18px;
+
+  background-color: #d6d9e7;
+
+  /* Set font family to Playfair Display, sans-serif */
+  font-family: Playfair Display, sans-serif;
+
+  text-align: center;
+
+  /* Set font weight to 700 and font style to normal */
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Styles for navigation paragraph */
+nav p {
+  font-size: x-large;
+
+  color: #094067;
+
+  margin-left: 100px;
+  margin-bottom: 0;
+
+  /* Set padding to 20px */
+  padding: 20px;
+}
+
+/* Styles for h1 headings */
+h1 {
+  color: #c04029;
+
+  font-weight: 600;
+
+  margin: 0;
+}
+
+/* Styles for navigation */
+nav {
+  display: flex;
+  justify-content: space-between;
+
+  background-color: #cfccd6;
+
+  margin: 0;
+}
+
+/* Styles for navigation links */
+nav li a {
+  display: inline-block;
+
+  margin-left: 50px;
+  margin-right: 80px;
+
+  color: #094067;
+}
+
+/* Styles for span elements */
+span {
+  margin: 0;
+  margin-bottom: 0;
+
+  text-align: right;
+}
+
+/* Styles for intro section */
+.intro {
+  background-color: #bbc2e2;
+
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+
+  margin: 0;
+  padding: 20px;
+}
+
+/* Styles for image container */
+.imgs {
+  margin-right: 150px;
+}
+
+/* Styles for paragraph in intro section */
+.para p {
+  width: fit-content;
+
+  margin-left: 10%;
+  margin-right: 40%;
+
+  font-size: xx-large;
+}
+
+/* Styles for images in intro section */
+.imgs img {
+  border-radius: 50%;
+
+  width: 150px;
+  height: 150px;
+}
+
+/* Styles for unordered lists */
+ul {
+  list-style: none;
+}
+
+/* Styles for header section */
+header {
+  background-color: #cfccd6;
+
+  margin: 0;
+  padding: 20px;
+}
+
+/* Styles for engineering section */
+.eng {
+  align-items: center;
+
+  margin: 0;
+  background-color: #b7b5e4;
+}
+
+/* Styles for unordered lists in engineering section */
+.eng ul {
+  text-align: right;
+
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles for skillset section */
+.skillset ul {
+  display: flex;
+  text-align: center;
+
+  background-color: #b7b5e4;
+}
+
+/* Styles for skillset list items */
+.skillset ul li {
+  font-size: 12px;
+
+  padding: 30px;
+
+  background-color: #b7b5e4;
+
+  /* Set margin right to 6px */
+  margin-right: 6px;
+}
+
+/* Styles for images in unordered lists */
+ul img {
+  border-radius: 0;
+
+  width: 30%;
+}
+
+/* Styles for software section */
+.software {
+  background-color: #b7b5e4;
+}
+
+/* Styles for marketer section */
+.marketer {
+  background-color: #a8a5df;
+
+  align-items: center;
+  justify-content: space-around;
+
+  margin: 0;
+  padding: 20px;
+}
+
+/* Styles for marketer unordered lists */
+.marketer ul {
+  display: flex;
+  justify-content: space-around;
+
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles for marketer div elements */
+.marketer div {
+  padding: 20px;
+}
+
+/* Styles for digimarket list items */
+.digimarket ul li {
+  font-size: xx-large;
+
+  padding: 0;
+
+  background-color: #a8a5df;
+
+  /* Set margin right to 6px */
+  margin-right: 6px;
+}
+
+/* Styles for digimarket unordered lists */
+.digimarket ul {
+  display: flex;
+}
+
+/* Styles for writer section */
+.writer {
+  background-color: #8a86d5;
+
+  /* Set align items to center and justify content to space-between */
+  align-items: center;
+  justify-content: space-between;
+
+  /* Remove margin and set padding to 20px */
+  margin: 0;
+  padding: 20px;
+}
+
+/* Styles for writer unordered lists */
+.writer ul {
+  display: flex;
+  justify-content: space-around;
+
+  /* Remove margin and padding */
+  margin: 0;
+  padding: 0;
+}
+
+/* Styles for writer list items */
+.writer ul li {
+  display: flex;
+}
+
+/* Styles for fictionon list items */
+.fictionon ul li {
+  font-size: xx-large;
+
+  padding: 0;
+
+  background-color: #8a86d5;
+}
+
+/* Styles for work section */
+.work {
+  /* Set background color to #b8bfe0 */
+  background-color: #b8bfe0;
+
+  /* Set padding to 20px */
+  padding: 20px;
+}
+
+/* Styles for work paragraphs */
+.work p {
+  line-height: 2.5;
+}
+
+/* Styles for education section */
+.education {
+  background-color: #aab3da;
+
+  padding: 20px;
+}
+
+/* Styles for education paragraphs */
+.education p {
+  line-height: 2.5;
+}
+
+/* Styles for contact section */
+.contact {
+  background-color: #d6d9e7;
+
+  /* Set padding to 20px */
+  padding: 20px;
+}
+
+/* Styles for social section */
+.social {
+  padding: 20px;
+}
+
+/* Styles for social images */
+.social img {
+  width: 3%;
+}
+
+/* Styles for paragraphs */
+p {
+  margin: 0;
+}
+
+/* Styles for h3 headings */
+h3 {
+  margin: 0;
+}
